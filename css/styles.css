@@ -652,6 +652,15 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
 padding-left: 38px;
 }
+.modal-form-input:focus {
+outline: none;
+border-color: var(--accent-color);
+}
+
+.modal-form-input:focus + .modal-form-input-icon {
+fill: var(--accent-color);
+}
+
 
 .modal-form-input-desc {
 display: block;
@@ -670,10 +679,12 @@ margin-bottom: 8px;
 
 .modal-form-input-wrapper {
 position: relative;
+display: block;
 }
 
 .modal-form-input-icon {
 position: absolute;
-top: 8px;
 left: 16px;
+top: 50%;
+transform: translateY(-50%);
 }
