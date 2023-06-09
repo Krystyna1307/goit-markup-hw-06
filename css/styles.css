@@ -663,7 +663,7 @@ fill: var(--accent-color);
 }
 
 
-.modal-form-input-desc {
+.modal-form-field {
 display: block;
 font-family: 'Roboto', sans-serif;
 font-weight: 400;
@@ -674,9 +674,9 @@ color: #8E8F99;
 margin-bottom: 4px;
 }
 
-.modal-form-field {
+/* .modal-form-field {
 margin-bottom: 8px;
-}
+} */
 
 .modal-form-input-wrapper {
 position: relative;
