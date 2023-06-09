@@ -404,6 +404,9 @@
 
 </footer>
 
+
+<!-- -------------- MODAL  ------------ -->
+
 <div class="backdrop" data-modal>
   <div class="modal">
     <button type="button" class="modal-close" data-modal-close>
@@ -411,31 +414,27 @@
         <use href="./images/icons.svg#icon-close"></use>
       </svg>
     </button>
-
-    <!------------ MODAL FORM ------------>
-
-  <p class="name-modal-window">Leave your contacts and we will call you back</p>
-  <form class="modal-form" >
+    <p class="name-modal-window">Leave your contacts and we will call you back</p>
+    <form class="modal-form" >
+      <div class="modal-field">
+          <label for="user_name" class="modal-form-field"><span class="modal-form-input-desc">Name</span> 
+          <span class="modal-form-input-wrapper">
+          <input 
+          type="text" 
+          name="user_name" 
+          id="user_name"
+          class="modal-form-input"
+          pattern="^[a-zA-Z]+"
+          minlength="2">
+          <svg class="modal-form-input-icon" width="18" heigth="18">
+          <use href="./images/icons.svg#icon-person"></use>
+          </svg>
+          </span>
+        </label>
+    </div>
     <div class="modal-field">
     <label class="modal-form-field">
-    <span class="modal-form-input-desc">Name</span> 
-    <span class="modal-form-input-wrapper">
-      <input 
-      type="text" 
-      name="user_name" 
-      class="modal-form-input"
-      pattern="^[a-zA-Z]+"
-      minlength="2">
-      <svg class="modal-form-input-icon" width="18" heigth="18">
-      <use href="./images/icons.svg#icon-person"></use>
-      </svg>
-    </span>
-  </div>
-    </label>
-
-    <label class="modal-form-field">
     <span class="modal-form-input-desc">Phone</span> 
-
       <span class="modal-form-input-wrapper">
       <input 
       type="tel" 
@@ -447,7 +446,8 @@
       </svg>
       </span>
     </label>
-
+    </div>
+    <div class="modal-field">
     <label class="modal-form-field">
         <span class="modal-form-input-desc">Email</span> 
       <span class="modal-form-input-wrapper">
@@ -460,24 +460,26 @@
       </svg>
       </span>
     </label>
-
+    </div>
+    <div class="modal-field">
       <label class="modal-form-field">
-        <span class="modal-form-input-desc">Comment</span> 
+      <span class="modal-form-input-desc">Comment</span> 
       <textarea 
       name="user_message" 
       class="modal-form-message"
       placeholder="Text input"
       ></textarea>
-
+    </div>
       </label>
       <input id="user-policy" type="checkbox" name="user_policy" class="modal-form-check">
       <label for="user-policy" class="modal-form-check-desk">I accept the terms and conditions of the <a href="">Privacy Policy</a>
       </label>
       <button type="submit" class="modal-form-submit">Send</button>
     </form>
+  
   </div>
-
 </div>
+
 
 
 <script src="./js/modal.js"></script>
