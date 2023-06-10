@@ -463,7 +463,7 @@ background-color: #31d0aa;
 
 .footer-modal-item {
 display: flex;
-gap 24px;
+gap: 24px;
 }
 
 .footer-modal-link {
