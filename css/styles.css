@@ -482,7 +482,22 @@ color: #ffffff;
 .footer-modal-link::placeholder {
 color: #ffffff; 
 }
+/* .subscribe {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
 
+min-width: 165px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 16px;
+letter-spacing: 0.04em;
+color: #ffffff;
+
+} */
 
 
 /*------------Portfolio--------*/
