@@ -498,6 +498,8 @@ letter-spacing: 0.04em;
 color: #ffffff;
 background-color: var(--accent-color);
 border-radius: 4px;
+cursor: pointer;
+border: none;
 }
 
 .icon-footer-button {
