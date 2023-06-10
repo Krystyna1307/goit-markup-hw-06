@@ -405,6 +405,7 @@ align-items: baseline;
 .footer-icon{
 width: 208px;
 height: 80px;
+margin-right: 80px;
 }
 
 .footer-logo-page{
@@ -747,6 +748,7 @@ display: inline-flex;
 align-items: center; 
 justify-content: center; 
 fill: transparent; 
+margin-right: 8px;
 }
 
 .visually-hidden {
