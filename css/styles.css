@@ -767,3 +767,11 @@ border: none;
 fill: var(--svg-fill);
 }
 
+.href {
+color: var(--accent-color);
+}
+.modal-form-submit {
+min-width: 169px;
+height: 56px;
+
+}
