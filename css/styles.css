@@ -737,13 +737,6 @@ letter-spacing: 0.04em;
 color: var(--customers-icon);
 }
 
-/* .modal-form-check-desk::before {
-content: '';
-margin-right: 8px;
-display: block;
-} */
-
-
 .check-text {
 width: 16px;
 height: 16px;
