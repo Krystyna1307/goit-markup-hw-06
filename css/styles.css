@@ -748,3 +748,22 @@ align-items: center;
 justify-content: center; 
 fill: transparent; 
 }
+
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+overflow: hidden;
+}
+
+.modal-check:checked + .modal-form-check-desk span {
+background-color: var(--nav-color);
+border: none;
+fill: var(--svg-fill);
+}
+
