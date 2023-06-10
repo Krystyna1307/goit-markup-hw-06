@@ -725,3 +725,7 @@ padding: 8px 16px;
 .modal-form-message:focus {
 border-color: var(--accent-color);
 }
+
+.checkbox {
+margin-bottom: 24px;
+}
