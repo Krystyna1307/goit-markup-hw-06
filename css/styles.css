@@ -461,6 +461,12 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 background-color: #31d0aa;
 }
 
+.footer-modal-item {
+display: flex;
+gap 24px;
+}
+
+
 
 /*------------Portfolio--------*/
 
