@@ -466,6 +466,13 @@ display: flex;
 gap 24px;
 }
 
+.footer-modal-link {
+width: 264px;
+height: 40px;
+border: 1px solid #ffffff;
+background-color: transparent;
+
+}
 
 
 /*------------Portfolio--------*/
