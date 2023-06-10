@@ -729,13 +729,20 @@ border-color: var(--accent-color);
 .checkbox {
 margin-bottom: 24px;
 }
+
 .modal-form-check-desk {
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
 color: var(--customers-icon);
-
 }
+
+/* .modal-form-check-desk::before {
+content: '';
+margin-right: 8px;
+display: block;
+} */
+
 
 .check-text {
 width: 16px;
@@ -754,11 +761,10 @@ position: absolute;
 width: 1px;
 height: 1px;
 margin: -1px;
-border: 0;
-padding: 0;
-white-space: nowrap;
-clip-path: inset(100%);
 overflow: hidden;
+border: 0;
+clip: rect(0 0 0 0);
+
 }
 
 .modal-check:checked + .modal-form-check-desk span {
@@ -770,8 +776,4 @@ fill: var(--svg-fill);
 .href {
 color: var(--accent-color);
 }
-.modal-form-submit {
-min-width: 169px;
-height: 56px;
 
-}
